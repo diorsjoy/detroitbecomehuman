@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAmWb/AObm9wDMzP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiIAAAAAAAIzMgAAAAAAAjAyAAAAAAACMAMgAAAAACMBEDIAAAACMBERAyAAACMBEREQMgACMBEQERAyACMBEQEREDIAIwERAREQMgAjAREBERAyACMBEQEREDIAAjAAMAADIAAAIzMzMzIAAAACIiIiIAD//wAA/g8AAP4PAAD+DwAA/gcAAPwDAAD4AQAA8AAAAOAAAADAAAAAwAAAAMAAAADAAAAA4AEAAPADAAD4BwAA" rel="icon" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>My CV</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Alina</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="works.html">My works</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Contact Me
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="contacts.html">E-mail</a></li>
+                        <li><a class="dropdown-item" href="#">Instagram</a></li>
+                        <li><a class="dropdown-item" href="#">Telegram</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="cv">
+    <header class="header">
+        <h1>Alina Nishan</h1>
+        <p>Experienced Web Developer</p>
+        <i class="fas fa-moon" id="theme-button"></i>
+    </header>
+    <br>
+    <hr>
+    <main class="main">
+        <section class="section">
+            <h2>About Me</h2>
+            <p>I am a highly skilled and experienced web developer with over 30 years of expertise in creating stunning and functional websites. My passion for coding and design has driven me to continuously adapt and excel in the ever-evolving field of web development.</p>
+        </section>
+        <section class="section">
+            <h2>Skills</h2>
+            <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <div class="progress">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <br>
+            <div class="container">
+                <!-- Skill #1: HTML5 -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3><i class="fas fa-code"></i> HTML5</h3>
+                        <p>Proficient in creating structured and semantically meaningful HTML markup for web applications.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li>HTML5 semantics and best practices</li>
+                            <li>Form handling and validation</li>
+                            <li>HTML5 multimedia elements</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Skill #2: CSS3 -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3><i class="fab fa-css3"></i> CSS3 </h3>
+                        <p>Skilled in designing responsive and visually appealing user interfaces with CSS.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li>CSS layout techniques (Flexbox, Grid)</li>
+                            <li>Responsive web design</li>
+                            <li>CSS preprocessors (e.g., SASS)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Skill #3: JavaScript (ES6+) -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3><i class="fab fa-js"></i> JavaScript (ES6+)</h3>
+                        <p>Proficient in modern JavaScript, including ES6 features and best practices for interactive web development.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li>ES6 syntax and features</li>
+                            <li>Asynchronous programming (Promises, async/await)</li>
+                            <li>JavaScript frameworks (e.g., React.js)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Skill #4: React.js -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3><i class="fab fa-react"></i> React.js</h3>
+                        <p>Experienced in building dynamic and efficient user interfaces using React.js.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Component-based architecture</li>
+                            <li>State management with Redux</li>
+                            <li>React Router for routing</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Skill #5: Node.js -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3><i class="fab fa-node-js"></i> Node.js</h3>
+                        <p>Skilled in server-side development with Node.js and building RESTful APIs.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Express.js for web server development</li>
+                            <li>API design and development</li>
+                            <li>Package management with npm/yarn</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Skill #6: PHP -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3><i class="fab fa-php"></i> PHP</h3>
+                        <p>Proficient in server-side scripting with PHP and building dynamic web applications.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li>PHP fundamentals</li>
+                            <li>Database integration (MySQL)</li>
+                            <li>PHP frameworks (e.g., Laravel)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Skill #7: SQL -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3><i class="fas fa-database"></i> SQL</h3>
+                        <p>Skilled in designing and querying relational databases with SQL.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Database design principles</li>
+                            <li>SQL query optimization</li>
+                            <li>Working with databases (e.g., MySQL, PostgreSQL)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Skill #8: UX/UI Design -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3><i class="fas fa-paint-brush"></i> UX/UI Design</h3>
+                        <p>Proficient in creating user-centered design solutions for web and mobile applications.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Wireframing and prototyping</li>
+                            <li>Usability testing</li>
+                            <li>UI design tools (e.g., Figma, Sketch)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <br>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <h2>My Works</h2>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/taeng.png" class="d-block w-100" alt="figma" >
+                </div>
+                <div class="carousel-item">
+                    <img src="images/clock.png" class="d-block w-100" alt="clock">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/cards.png" class="d-block w-100" alt="cards">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <section class="section">
+            <h2>Education</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Bachelor Degree in Software Engineering</h3>
+                        <p>Astana IT University</p>
+                        <p>Graduated: May 2025</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>I had the privilege of attending Astana IT University, and I can confidently say that it is an institution that truly stands out in the world of higher education.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Master's Degree in Computer Engineering</h3>
+                        <p>MIT</p>
+                        <p>Graduated: May 2027</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>MIT's reputation as a world-class institution is well-deserved. Its faculty comprises some of the brightest minds on the planet, and they bring a level of expertise and enthusiasm to the classroom that is truly inspiring. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="toast" data-autohide="false" data-delay="5000" style="position: absolute; top: 20px; right: 20px;">
+            <div class="toast-header">
+                <strong class="mr-auto">Notification</strong>
+                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button>
+            </div>
+        </div>
+        <footer>
+        <div class="contacts">
+            <h4 class="contacts-heading">Contact Me</h4>
+            <h5>I will be glad to help you!</h5>
+            <h6>Alina Nishan.</h6>
+            <ul class="contacts-list">
+                <li class="contacts-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:alina.nishan@inbox.ru" class="contacts-link">alina.nishan@inbox.ru</a>
+                </li>
+                <li class="contacts-item">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+77771484231" class="contacts-link">+77771484231</a>
+                </li>
+            </ul>
+        </div>
+        </footer>
+        <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+            Download CV
+        </button>
+
+    </main>
+</div>
+
+<script src="lightdark.js" defer></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<!-- Include Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="lightdark.js" defer></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

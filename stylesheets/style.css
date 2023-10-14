@@ -1,0 +1,266 @@
+/* Reset and General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+}
+
+/* CV Container */
+.cv {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 24px rgba(42, 2, 94, 0.25);
+    transition: background-color 0.3s;
+}
+
+body.dark-mode .cv {
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    position: relative;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-style: italic;
+    color: #888;
+}
+
+#theme-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: blanchedalmond;
+}
+
+.theme-button.dark-mode {
+    color: lavenderblush;
+}
+
+/* Section Styles */
+.section {
+    margin-top: 2rem;
+    text-align: left;
+    border-radius: 2px;
+    border-color: #accbee;
+}
+
+.section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.section ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.section ul li i {
+    margin-right: 10px;
+    color: #3498db;
+}
+
+.section h3 {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.section p {
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer a:not(.nav-link) {
+    color: inherit;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Scroll to Top Button */
+#scrolltop {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease-in;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#scrolltop .btn {
+    padding: 3px 11px;
+    border-radius: 50%;
+}
+
+/* Responsive Styles */
+@media (max-width: 575.98px) {
+    .marker {
+        padding-right: 0;
+    }
+    .marker:after {
+        bottom: -30px;
+        left: 50%;
+        margin-left: -60px;
+    }
+}
+
+/* Additional Styles */
+ul li {
+    list-style-type: none;
+}
+
+.entry-title a {
+    text-decoration: none;
+}
+
+.contacts {
+    margin: 30px 0;
+}
+
+.contacts-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.contacts-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contacts-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contacts-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.contacts-link:hover {
+    text-decoration: underline;
+}
+
+.fas {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.contacts-link {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/* Experience Section Styles */
+.experience {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.experience h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.experience p {
+    margin-bottom: 8px;
+}
+
+.experience-description {
+    font-size: 1.1rem;
+}
+
+@media (max-width: 767px) {
+    .experience {
+        padding: 10px;
+    }
+}
+/* Navbar Styles */
+.navbar {
+    background-color: #d6c8dd; /* Light theme background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Navbar shadow */
+    transition: background-color 0.3s;
+    font-weight: lighter;
+}
+
+.navbar.dark-mode {
+    background-color: #333;
+}
+
+.navbar-brand {
+    font-weight: lighter; /* Make the brand text bold */
+    color: #333;
+}
+
+.navbar.dark-mode .navbar-brand {
+    color: #fff; /* Text color for dark theme */
+}
+/* Active navbar link styles */
+.navbar-nav .nav-link.active {
+    font-weight: bold; /* Make the active link bold */
+    color: #ffa500; /* Active link color */
+}
+
+
+.navbar-nav .nav-link {
+    color: #333; /* Navbar link color for light theme */
+}
+
+.navbar.dark-mode .navbar-nav .nav-link {
+    color: #fff; /* Navbar link color for dark theme */
+}
+
+.navbar-toggler-icon {
+    background-color: #333; /* Color of the navbar toggle icon */
+}
+
+/* Active navbar link styles */
+.navbar-nav .nav-link.active {
+    font-weight: normal; /* Make the active link bold */
+    color: #ffa500; /* Active link color */
+}
+
+/* Navbar hover effect */
+.navbar-nav .nav-link:hover {
+    color: #ffa500; /* Hover link color */
+}
+
+/* Complimentary Color */
+.complimentary {
+    color: #ffa500; /* Set the complimentary color */
+}

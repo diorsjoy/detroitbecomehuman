@@ -1,0 +1,73 @@
+body {
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    font-family: Arial, sans-serif;
+
+}
+h1, h2, ul, li {
+    text-align: center;
+}
+
+ul, li {
+    list-style-type: none;
+}
+form {
+    margin-top: 30px;
+    text-align: left; /* Align form elements to the left */
+    max-width: 400px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold; /* Make labels bold */
+    color: #333; /* Match label color */
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px; /* Increase margin for spacing */
+    border-radius: 5px; /* Add some border radius */
+    border: 1px solid #ccc;
+    font-size: 16px; /* Increase font size for better readability */
+    font-family: Arial, sans-serif; /* Match font-family */
+    color: darkslateblue; /* Match text color */
+}
+
+form textarea {
+    height: 100px;
+}
+
+form input[type="submit"] {
+    background-color: cadetblue;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px; /* Increase font size for submit button */
+    font-family: Arial, sans-serif; /* Match font-family */
+}
+
+form input[type="submit"]:hover {
+    background-color: #457072;
+}
+
+/* Container for the form */
+#containers {
+    width: 80%;
+    margin: 0 auto;
+}
+@media (max-width: 575.98px) {
+    .marker {
+        padding-right: 0;
+    }
+    .marker:after {
+        bottom: -30px;
+        left: 50%;
+        margin-left: -60px;
+    }
+}

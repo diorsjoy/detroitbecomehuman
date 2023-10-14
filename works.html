@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>My CV</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Alina</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="works.html">My works</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Contact Me
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="contacts.html">E-mail</a></li>
+                        <li><a class="dropdown-item" href="#">Instagram</a></li>
+                        <li><a class="dropdown-item" href="#">Telegram</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="cv">
+    <header class="header">
+        <h1>Alina Nishan</h1>
+        <p>Experienced Web Developer</p>
+        <i class="fas fa-moon" id="theme-button"></i>
+    </header>
+    <br>
+    <hr>
+    <main class="main">
+        <section class="section">
+            <h2>About Me</h2>
+            <p>I am a highly skilled and experienced web developer with over 30 years of expertise in creating stunning and functional websites. My passion for coding and design has driven me to continuously adapt and excel in the ever-evolving field of web development.</p>
+        </section>
+
+        <section class="section">
+            <h2>Work Experience</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Software Engineer</h3>
+                        <p>Riot Games</p>
+                        <p>August 2025 - May 2029</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>At Riot Games, I was part of a dynamic team working on cutting-edge projects in the gaming industry. I contributed to the development of game-related web applications and played a key role in enhancing user experiences.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Senior Software Engineer</h3>
+                        <p>Amazon</p>
+                        <p>July 2030 - December 2035</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>At Amazon, I had the opportunity to work on innovative e-commerce solutions. I was involved in developing and maintaining critical components of Amazon's platform, contributing to the company's mission of providing exceptional customer experiences.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Senior Web Developer</h3>
+                        <p>Google</p>
+                        <p>January 2036 - Present</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>As a senior web developer, I have led numerous projects, mentored junior developers, and contributed to the growth and success of our web development team. My work has resulted in high-quality websites that have received praise from clients and users alike.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <h2>My Works</h2>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/taeng.png" class="d-block w-100" alt="figma" >
+                </div>
+                <div class="carousel-item">
+                    <img src="images/clock.png" class="d-block w-100" alt="clock">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/cards.png" class="d-block w-100" alt="cards">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+<footer>
+    <div class="contacts">
+        <h4 class="contacts-heading">Contact Me</h4>
+        <h5>I will be glad to help you!</h5>
+        <h6>Alina Nishan.</h6>
+        <ul class="contacts-list">
+            <li class="contacts-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:alina.nishan@inbox.ru" class="contacts-link">alina.nishan@inbox.ru</a>
+            </li>
+            <li class="contacts-item">
+                <i class="fas fa-phone"></i>
+                <a href="tel:+77771484231" class="contacts-link">+77771484231</a>
+            </li>
+        </ul>
+    </div>
+</footer>
+<script src="lightdark.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+</body>
+</html>
